@@ -1,7 +1,3 @@
 require "capistrano3/railstmp/version"
 
-module Capistrano3
-  module Railstmp
-    # Your code goes here...
-  end
-end
+load File.expand_path('../railstmp/tasks/railstmp.rake', __FILE__)
